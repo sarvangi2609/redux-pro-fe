@@ -1,15 +1,13 @@
 
 
 import React from 'react'
-import Home from './Pages/Home'
-import Product from './Pages/Product'
-import AddProduct from './Pages/AddProduct'
-import Signin from './Pages/Signin'
-import SignUp from './Pages/SignUp'
+import Home from "./Pages/Home"
+import Product from "./Pages/Product"
+import AddProduct from "./Pages/Addproduct"
+import Signin from "./Pages/Signin"
+import SignUp from "./Pages/SignUp"
 import { Route, Routes } from 'react-router-dom'
-import PrivateRoute from './Components/PrivateRoute'
-import Description from './Pages/Description'
-import EditProduct from './Pages/EditProduct'
+
 
 const AllRoutes = () => {
   return (
