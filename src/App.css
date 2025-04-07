@@ -1,0 +1,76 @@
+
+.nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.nav ul li{
+    padding: 0px 30px;
+}
+
+/* signup */
+form{
+    height:350px;
+    width:400px;
+    margin:auto;
+    margin-top: 5%;
+    border:1px solid black;
+    text-align:center
+}
+ form input{
+    width: 80%;
+    height: 40px;
+    padding-left: 10px;
+ }
+
+
+ /* AddProduct */
+
+ .addpro{
+    height:650px;
+    width:400px;
+    margin-top: 2%;
+ }
+
+.addpro input{
+    margin: 15px 0px;
+}
+
+.addbtn{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+/* Description Page */
+.description{
+    height: 450px;
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.des-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cart-btn{
+    width: 70%;
+    height: 40px;
+    margin-left: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
