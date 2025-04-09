@@ -7,6 +7,7 @@ import AddProduct from "./Pages/Addproduct"
 import Signin from "./Pages/Signin"
 import SignUp from "./Pages/SignUp"
 import { Route, Routes } from 'react-router-dom'
+import PrivateRoute from './Components/PrivateRoute'
 
 
 const AllRoutes = () => {
@@ -17,7 +18,12 @@ const AllRoutes = () => {
         <Routes>
             <Route path="/" element={<Home />} />
 
-            <Route path="/product" element={<Product />} />
+            <Route path="/product" element={
+              <PrivateRoute>
+                 <Product />
+              </PrivateRoute>
+             
+              } />
               
               
 

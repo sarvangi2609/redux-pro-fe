@@ -46,18 +46,6 @@ const ProductCard = ({id,image,price,title}) => {
       
       </Link>
 
-  {/* {currentUser ?.role =="admin" &&<button style={{ margin: '5px',
-  padding: '8px 15px',
-  border: 'none',
-  cursor: 'pointer',
-  background: 'black',
-  color: 'white',
-  fontSize: '14px'}}
-
- 
-  >
-    EDIT
-    </button>} */}
 
       {currentUser ?.role =="admin" &&<button style={{ margin: '5px',
     padding: '8px 15px',

@@ -12,7 +12,7 @@ const Description = () => {
 
   const getProduct=()=>{
 
-    axios.get(`http://localhost:3000/Product/${id}`)
+    axios.get(`https://redux-pro-be.onrender.com/Product/${id}`)
 
       .then((res) => {
         setoneData(res.data);
