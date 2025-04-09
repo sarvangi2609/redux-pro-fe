@@ -1,6 +1,5 @@
 
 
- 
 import { PROERROR, PROREQ, PROSUCCESS } from "../actionType";
 
 
