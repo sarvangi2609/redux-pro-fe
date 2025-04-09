@@ -1,6 +1,7 @@
 
 
-import { PROERROR, PROREQ, PROSUCCESS } from "../actionType";
+import { PROERROR, PROREQ, PROSUCCESS } from "../ActionType ";
+
 
 
 const initialstate = {
